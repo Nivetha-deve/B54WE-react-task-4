@@ -1,0 +1,126 @@
+
+.input-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    height: 10rem;
+    width: 90rem;
+}
+.input-heading{
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    color: rgb(5, 204, 48);
+}
+input{
+    padding: 10px;
+    width: 280px;
+    border-radius: 5px;
+    border-color: rgba(7, 173, 7, 0.363);
+}
+.btn{
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(66, 194, 104);
+    color:white;
+}
+.main1{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.status-div{
+   display: flex;
+   justify-content: end;
+   margin-right: 20rem;
+}
+.status-select{
+    background-color: rgb(245, 146, 163);
+    width: 50px;
+    color: white;
+}
+.options{
+      background-color: rgb(245, 146, 163);
+     padding: 5px;
+     color: white;
+     width: 100px;
+    }
+.btn1{
+     background-color: rgb(39, 236, 82);
+     padding: 5px;
+     width: 70px;
+     color: white;
+}    
+.btn2{
+    background-color: rgb(231, 37, 37);
+    padding: 5px;
+    width: 70px;
+    color: white;
+}
+.main2{
+    position: relative;
+    right: 40rem;
+    font-size: 20px;
+}
+.main {
+    margin:50px;
+     display: flex;
+    justify-content:space-evenly; 
+}
+.product-container{
+    height: 200px;
+    width:300px;
+    background-color: rgb(128, 241, 143);
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.button-container {
+    margin-top: 60px; 
+    display: flex;
+    justify-content: center; 
+    gap: 1rem; 
+}
+  .name,
+.description,
+.status,
+.options {
+  margin-bottom: 10px; 
+}
+
+@media (width < 800px) {
+   
+     .input-box{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        max-width:100%;
+        justify-content: center; 
+        align-items: center;
+         margin-top: 20px; 
+    } 
+    .status-div{
+        display: flex;
+        margin-right: 15rem;
+        margin-top: 5rem;
+     }
+     .main{
+        margin:50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+  }
+  .main2{
+    position: relative;
+    left:20px;
+    top:45px;
+    font-size: 20px;
+}
+    }
+    
